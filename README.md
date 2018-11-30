@@ -41,7 +41,7 @@ Open a powershell as admin and install chocolatey:
 
 Install software via packages!
 ```shell
-choco install -y slack vscode winmerge winscp
+choco install -y 7zip.install firefox notepadplusplus.install slack vscode winmerge winscp
 ```
 
 ## Theme
