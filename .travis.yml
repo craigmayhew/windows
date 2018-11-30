@@ -1,3 +1,5 @@
 os: windows
+node_js:
+  - "10"
 script:
  - ./setup.ps1
