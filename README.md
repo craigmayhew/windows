@@ -14,3 +14,9 @@ Install software via packages!
 ```shell
 choco install -y slack vscode winmerge winscp
 ```
+
+Set windows preferences!
+```shell
+# set desktop background colour to black
+Set-ItemProperty 'HKCU:\Control Panel\Colors' -Name Background -Value "0 0 0"
+```
