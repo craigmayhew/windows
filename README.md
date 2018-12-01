@@ -1,3 +1,4 @@
+[![PowerShell](https://img.shields.io/badge/powershell--blue.svg?logo=powershell&longCache=true)](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/powershell)
 [![Build Status](https://travis-ci.org/craigmayhew/windows.svg?branch=master)](https://travis-ci.org/craigmayhew/windows)
 
 # Windows
