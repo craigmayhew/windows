@@ -52,3 +52,6 @@ choco install -y 7zip.install docker firefox notepadplusplus.install slack vscod
 # set desktop background colour to black
 Set-ItemProperty 'HKCU:\Control Panel\Colors' -Name Background -Value "0 0 0"
 ```
+
+## Roadmap
+ - [ ] Stop installing desktop shortcuts. Upstream functionality pending: https://github.com/chocolatey/choco/issues/4
