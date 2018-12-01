@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/craigmayhew/windows.svg?branch=master)](https://travis-ci.org/craigmayhew/windows)
+
 # Windows
 
 So you have to use windows. Let's make it a bit less manual.
