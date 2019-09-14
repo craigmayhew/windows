@@ -55,3 +55,8 @@ Set-ItemProperty 'HKCU:\Control Panel\Colors' -Name Background -Value "0 0 0"
 
 ## Roadmap
  - [ ] Stop installing desktop shortcuts. Upstream functionality pending: https://github.com/chocolatey/choco/issues/4
+ 
+## Blue Screen of Death
+Ocassionally you may find yoursrlf in a blue screen of death scenario, use these tools to debug it!
+ - BSOD viewer: https://www.nirsoft.net/utils/blue_screen_view.html
+ - Find dump files here %systemroot%\Minidump
