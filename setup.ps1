@@ -23,6 +23,6 @@ Get-AppxPackage *xboxapp* | Remove-AppxPackage
 Get-AppxPackage *zunemusic* | Remove-AppxPackage
 Get-AppxPackage *zunevideo* | Remove-AppxPackage
 
-choco install -y 7zip.install docker firefox notepadplusplus.install slack vscode winmerge winscp wsl-ubuntu-1804
+choco install -y --force 7zip.install docker firefox notepadplusplus.install slack vscode winmerge winscp wsl-ubuntu-1804
 
 Set-ItemProperty 'HKCU:\Control Panel\Colors' -Name Background -Value "0 0 0"
