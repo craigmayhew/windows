@@ -11,6 +11,7 @@ jobs:
     runs-on: windows-latest
 
     steps:
-      run: |
+      - name: Run ps1 script
+        run: |
         powershell Set-ExecutionPolicy Unrestricted
         powershell ./setup.ps1
