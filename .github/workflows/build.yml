@@ -11,6 +11,9 @@ jobs:
     runs-on: windows-latest
 
     steps:
+      - name: checkout
+        uses: actions/checkout@v1
+      
       - name: Run ps1 script
         run: |
           dir
