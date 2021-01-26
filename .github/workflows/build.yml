@@ -14,5 +14,4 @@ jobs:
       - name: Run ps1 script
         run: |
           powershell Set-ExecutionPolicy Unrestricted
-          powershell ./setup.ps1
-          
+          powershell ../../setup.ps1
