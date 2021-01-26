@@ -16,10 +16,5 @@ jobs:
       
       - name: Run ps1 script
         run: |
-          dir
-          cd ../
-          dir
-          cd ../
-          dir
           powershell Set-ExecutionPolicy Unrestricted
-          powershell ../../setup.ps1
+          powershell setup.ps1
