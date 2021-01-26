@@ -23,6 +23,7 @@
 #Get-AppxPackage *zunemusic* | Remove-AppxPackage
 #Get-AppxPackage *zunevideo* | Remove-AppxPackage
 
-choco install -y --force --source="'.;https://chocolatey.org/api/v2'" 7zip.install docker-cli firefox notepadplusplus.install slack vscode winmerge winscp wsl-ubuntu-1804
+choco install -y --force --source="'.;https://chocolatey.org/api/v2'" 7zip.install docker-cli firefox notepadplusplus vscode winscp wsl-ubuntu-1804
+choco install -y --force --source="'.;https://chocolatey.org/api/v2'" winmerge --pre 
 
 Set-ItemProperty 'HKCU:\Control Panel\Colors' -Name Background -Value "0 0 0"
