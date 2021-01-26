@@ -1,0 +1,16 @@
+name: build
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+      run: |
+        powershell Set-ExecutionPolicy Unrestricted
+        powershell ./setup.ps1

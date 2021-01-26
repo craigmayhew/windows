@@ -1,8 +1,0 @@
-os: windows
-filter_secrets: false
-language: node_js
-node_js:
-  - "10"
-script:
- - powershell Set-ExecutionPolicy Unrestricted
- - powershell ./setup.ps1
